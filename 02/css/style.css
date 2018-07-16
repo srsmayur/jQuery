@@ -1,0 +1,84 @@
+body {
+
+
+    font-weight: 300 !important;
+    margin: 0px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    background: rgba(255, 200, 100, .5);
+}
+
+
+body > header> h3 {
+    background: #fff;
+    color: #0f0
+}
+
+h3{
+    color: #000;
+}
+body h1 {
+    font-weight: 300;
+    margin: 20px 30px;
+}
+#main-header {
+    border-bottom: 2px solid #000;
+}
+#top-stories {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+article {
+    width: 301px;
+    display:inline-block;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.3);
+    transition: box-shadow 500ms,background 3s;
+}
+article:hover {
+    box-shadow:5px 5px 20px rgba(0,0,0,.7);
+    background: #aaa;
+}
+.article img {
+    width: 100%;
+    height: 100px;
+}
+.article-image {
+    height: 200px;
+    width: 100%;
+    background-size:cover !important;
+    background-position:center !important;
+}
+a {
+    text-decoration: underline line-through overline;
+    text-decoration-style: dashed;
+}
+a:hover, a.more-link.bolded-link:hover {
+    color: #8f8;
+}
+.more-link {
+    font-style: italic;
+}
+.bolded-link {
+    font-weight: 900;
+}
+.more-link.bolded-link {
+    color: #f00;
+}
+.my-input, .my-textarea {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #aaa;
+    resize: none;
+}
+article:active {
+    opacity: 4;
+}
+
+.article-image {
+    border-top-left-radius: 20px;
+}
